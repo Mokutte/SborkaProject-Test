@@ -1,0 +1,22 @@
+.sneakersBlock {
+  transition: 1000ms;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  padding: 3% 0px 3% 0px;
+}
+
+.mainBlock {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .mainBlockIsClose {
+    display: none;
+  }
+}

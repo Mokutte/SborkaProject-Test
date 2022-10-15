@@ -1,24 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Header } from "./components/Header/Header";
+import { Carts } from "./components/Carts/Carts";
+import { SneakerInfo } from "./components/SneakerInfo/SneakerInfo";
+import { useAppDispatch, useAppSelector } from "./hooks/redux";
+import { Basket } from "./components/Basket/Basket";
+import { Routes } from "react-router-dom";
+import { Route } from "react-router-dom";
 
 function App() {
+  // const { sneakers } = useAppSelector((state) => state.sneakersReducer);
+  // const dispatch = useAppDispatch();
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <div className="mainBlock">
+      <Routes>
+        <Route path="/" element={<Carts/>}/>
+        <Route path="/sneakerInfo" element={<SneakerInfo/>}/>
+      </Routes>
+      <Basket />
+      </div>
     </div>
   );
 }

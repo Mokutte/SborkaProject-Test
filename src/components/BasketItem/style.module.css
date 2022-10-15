@@ -1,0 +1,91 @@
+.sneakerImg {
+  width: 90px;
+  height: 51px;
+}
+
+.close {
+  width: 30px;
+  height: 30px;
+}
+
+.busketItem {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.sneakerImgBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.sneakerImg {
+  object-fit: cover;
+}
+
+.namesneakers {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 15px;
+  width: 200px;
+}
+
+.priceBlock {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px;
+}
+
+.deck {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.deck:active{
+  scale: 0.9;
+}
+
+.inc {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.inc:active{
+  scale: 0.9;
+}
+
+.price {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.closeBtn {
+  cursor: pointer;
+  outline: none;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: white;
+}
+
+.closeBtn:active{
+  scale: 1.5;
+}
+
+@media (max-width: 768px) {
+  .namesneakers {
+    width: 100%;
+  }
+}

@@ -1,0 +1,35 @@
+.header {
+  border-bottom: 1px solid #cfcfcf;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.basket {
+  border: none;
+  align-items: center;
+  color: white;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.numCount {
+  box-sizing: border-box;
+  margin: 0px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: none;
+  background-color: #3366ff;
+  position: relative;
+  top: 7px;
+  left: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+}

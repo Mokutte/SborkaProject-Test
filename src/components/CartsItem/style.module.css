@@ -1,0 +1,71 @@
+.sneakerCart {
+  background-color: #fff;
+  width: 235px;
+  height: 300px;
+  border: 1px solid #e7e7e7;
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 25px 35px;
+}
+
+.imgsneakerBlock {
+  width: 234px;
+  height: 173px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 23px;
+}
+
+.imgsneaker {
+  width: 228px;
+  height: 130px;
+  image-rendering: optimizeSpeed;
+}
+
+.sneakerName {
+  text-align: left;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: black;
+  width: 170px;
+  height: 32px;
+  margin-bottom: 0 auto;
+}
+
+.priceBlock {
+  display: flex;
+}
+
+.buy {
+  background-color: #3366ff;
+  padding: 9px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.buy:hover {
+  background-color: cornflowerblue;
+}
+
+.buy:active {
+  background-color: rgba(0, 0, 0, 0.338);
+}
+
+.price {
+  margin-left: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.buyBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
